@@ -10,10 +10,31 @@ main{
 }
 article{
     flex: 2;
+    border: 2px solid yellow;
 }
 aside{
     flex: 1;
+    border: 2px solid red;
 }
 article, aside{
     overflow-y: auto;
+}
+header, footer{
+    border: 2px solid brown;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+header ul li a:hover{
+ /* background-color: coral; */
+ color: coral;
+ padding: 20;
+}
+header ul li a{
+    width: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
