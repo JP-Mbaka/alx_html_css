@@ -201,6 +201,7 @@
       ============================= */
 
   .nav {
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -214,7 +215,7 @@
     letter-spacing: var(--nav-item-letter-spacing);
   }
 
-  .nav-item + .nav .nav-item{
+  .nav .nav-item + .nav-item{
     margin: var(--nav-item-margin);
   }
   
